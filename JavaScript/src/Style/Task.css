@@ -1,0 +1,39 @@
+.task-container{
+  border: .2px solid white;
+  background-color: white;
+  min-height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  border-radius: 0 25px 25px 0;
+  margin-top: 25px;
+}
+.task-text-container{
+  font-size: 18px;
+  width: 100%;
+  margin-left: 25px;
+  cursor: pointer;
+  color: rgb(56, 55, 55);
+}
+.task-icon-container{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.task-icon{
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+  color: rgb(56, 55, 55);
+}
+.completed{
+  background-color: rgb(100, 228, 100);
+  color: white;
+  border-radius: 25px 0 0 25px;
+
+
+}
