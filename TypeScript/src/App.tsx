@@ -16,9 +16,6 @@ function App() {
       <div className='app-container'>
         <Form />
         <Task/>
-        <Task/>
-        <Task/>
-        <Task/>
       </div>
       
     </div>
